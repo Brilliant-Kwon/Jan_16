@@ -16,5 +16,23 @@ public class CastingEx {
         long l = i;//8바이트
         System.out.println(l);
 
+        float f= l;//4바이트
+        System.out.println(f);
+
+        double d = f;//8바이트
+        System.out.println(d);
+
+        //표현범위가 넓은 쪽-> 좁은 쪽으로 할당
+        //강제로 변환 : 명시적 캐스팅
+        byte b2;
+        int i2 = 2019;
+        float f2 = 3.14159f;
+
+        b2 = (byte)i2;//4->1byte로 강제 변환
+        System.out.println("int:"+i2+"->byte:"+b2);
+        i2 = (int)f2;
+        System.out.println("float:"+f2+"->int:"+i2);
+
+        //명시적 형 변환시에는 데이터의 유실에 주의
     }
 }
