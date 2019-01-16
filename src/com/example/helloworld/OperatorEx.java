@@ -21,5 +21,7 @@ public class OperatorEx {
         System.out.println("Origin: "+b);
         System.out.println("b++: "+ b++);
         System.out.println("Final: "+b);
+        //증감 연산자는 가능하면 타 연산식 속에 포함시키지말자
+        //헷갈림 유발
     }
 }
