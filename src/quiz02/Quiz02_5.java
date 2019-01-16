@@ -11,5 +11,7 @@ public class Quiz02_5 {
         //result, num1, num2를 출력
         System.out.println("++num1 + 1 과 num2++ + 1 은 서로 \" "+result+"\"");
         System.out.println("최종값) num1 : "+num1+"\nnum2 : "+num2);
+
+        //2019.01.16 퀴즈 2 끝.
     }
 }
