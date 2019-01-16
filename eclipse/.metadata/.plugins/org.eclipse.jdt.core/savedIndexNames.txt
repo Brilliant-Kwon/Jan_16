@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\k1212\bitacademy\Jan_16\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+3423253026.index
